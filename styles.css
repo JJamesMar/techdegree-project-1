@@ -73,6 +73,17 @@ header .profile-image {
   border: 3px solid rgba(248, 244, 233, 0.582);
   transition: all 1.0s;
 }
+  .extra-images {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}  
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
